@@ -5,23 +5,28 @@
 using namespace std;
 
 
-
+// Game ùystery word on console.
 int main()
 {
-    double firstNumber(0),secondNumber(0), thirdNumber(0),addResult(0), multipleResult(0), divideResult(0), quotienResult(0);
-    cout<< "Add first number" << endl;
-    cin>> firstNumber;
-    cout<< "Add the second" <<endl;
-    cin>> secondNumber;
-    cout<< "Add the third" <<endl;
-    cin>> thirdNumber;
-    addResult=Addition(firstNumber,secondNumber);
-    multipleResult = firstNumber*secondNumber +thirdNumber;
-    divideResult = (firstNumber/secondNumber)/thirdNumber;
-    quotienResult = fmod(firstNumber,secondNumber);
-    cout<< "The result of the addition is :"<< addResult<< endl;
-    cout<< "The result of the Multiplication is :"<< multipleResult<< endl;
-    cout<< "The result of the division is :"<< divideResult<< endl;
-    cout<< "TThe quotion is :"<< quotienResult<< endl;
-    return 0;
+    //1 Variable string to get word
+    string word;
+    bool wordFound(false);
+    cout<<"Player one add a word"<< endl;
+    cin>> word;
+    string shakedWord;
+
+    for(int i(0); i<word.size(); i++)
+    {
+        char shaker = word[i];
+
+        shakedWord+=shaker;
+
+    }
+
+    cout<<"Word is shaked :"<<shakedWord <<endl;
+
+    //2 shake letter
+
+    //3 ask until the word is found
+
 }
