@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1484668303 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/main.cpp
+	<iostream>
+	<string>
+	<math.h>
+	"myMath.h"
+
+1484668156 /Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.h
+
