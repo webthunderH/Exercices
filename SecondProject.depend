@@ -1,12 +1,16 @@
 # depslib dependency file v1.0
-1484668303 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/main.cpp
+1484726404 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/main.cpp
 	<iostream>
 	<string>
 	<math.h>
+	<cstdlib>
 	"myMath.h"
 
-1484668808 /Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.h
+1484725536 /Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.h
+	<string>
 
-1484668352 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.cpp
+1484725942 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.cpp
 	"myMath.h"
+	<string>
+	<random>
 
