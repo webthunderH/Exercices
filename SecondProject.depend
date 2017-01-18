@@ -1,16 +1,24 @@
 # depslib dependency file v1.0
-1484726404 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/main.cpp
+1484729987 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/main.cpp
 	<iostream>
 	<string>
 	<math.h>
 	<cstdlib>
-	"myMath.h"
+	"shakerHeader.h"
 
 1484725536 /Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.h
 	<string>
 
 1484725942 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/myMath.cpp
 	"myMath.h"
+	<string>
+	<random>
+
+1484729368 /Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/shakerHeader.h
+	<string>
+
+1484730111 source:/Users/henrydedonder/Documents/C++_learning/SecondProject/SecondProject/shaker.cpp
+	"shakerHeader.h"
 	<string>
 	<random>
 
