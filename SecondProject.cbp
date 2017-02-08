@@ -32,9 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="findAWord.cpp" />
+		<Unit filename="findAWord.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="myMath.cpp" />
-		<Unit filename="myMath.h" />
+		<Unit filename="shaker.cpp" />
+		<Unit filename="shakerHeader.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
